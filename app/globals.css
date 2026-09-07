@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --grid-line: rgba(0, 0, 0, 0.04);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  background: var(--bg);
+  color: #0a0a0a;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 120ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    text-decoration-color 120ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+a:hover {
+  color: #dc2626;
+  text-decoration-color: #dc2626;
+}
+
+nav a,
+.no-underline,
+.no-underline * {
+  text-decoration: none;
+}
+
+*::selection {
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #0a0a0a;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline-offset: 3px;
+}
+
+/* Subtle grid backdrop for the hero band. Kept tiny - no visual noise. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Utility loading bar - the only animation on the site. */
+@keyframes bar {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(140%);
+  }
+}
+.loading-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  background: #0a0a0a;
+  animation: bar 1.1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
