@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { HeaderNav } from "@/components/HeaderNav";
 import { JsonLd } from "@/components/JsonLd";
@@ -48,18 +49,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="mx-auto flex max-w-page items-center justify-between px-4 py-3 sm:px-6">
               <Link
                 href="/"
-                className="group flex items-center gap-2 no-underline"
+                className="inline-flex no-underline transition-opacity hover:opacity-80"
                 aria-label={`${SITE_NAME} home`}
               >
-                <span
-                  aria-hidden
-                  className="flex h-6 w-6 items-center justify-center rounded border border-ink bg-ink text-[10px] font-bold tracking-tight text-white"
-                >
-                  pd
-                </span>
-                <span className="text-sm font-semibold tracking-tight text-ink">
-                  {SITE_NAME}
-                </span>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/logo-mark.svg"
+                  alt={SITE_NAME}
+                  width={28}
+                  height={28}
+                  className="h-7 w-7"
+                />
               </Link>
               <HeaderNav />
             </div>
@@ -81,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );

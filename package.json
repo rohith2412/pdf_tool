@@ -12,15 +12,16 @@
     "postinstall": "npm run copy-pdf-worker"
   },
   "dependencies": {
-    "next": "^15.0.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next-auth": "5.0.0-beta.25",
     "@auth/mongodb-adapter": "^3.7.2",
+    "@vercel/analytics": "^2.0.1",
+    "lucide-react": "^0.454.0",
     "mongodb": "^6.10.0",
+    "next": "^15.0.3",
+    "next-auth": "5.0.0-beta.25",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.7.76",
-    "lucide-react": "^0.454.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
