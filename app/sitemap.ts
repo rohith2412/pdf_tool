@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { COMPRESS_VARIANTS } from "@/content/compressVariants";
 import { HOW_TO_PAGES, TOOLS } from "@/content/tools";
 import { SITE_URL } from "@/lib/seo/meta";
 
@@ -9,6 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "weekly" as const,
     priority: 0.9,
+  }));
+  const variantUrls = COMPRESS_VARIANTS.map((v) => ({
+    url: `${SITE_URL}/${v.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
   }));
   const howToUrls = HOW_TO_PAGES.map((p) => ({
     url: `${SITE_URL}/${p.slug}`,
@@ -21,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE_URL}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     ...toolUrls,
+    ...variantUrls,
     ...howToUrls,
   ];
 }
