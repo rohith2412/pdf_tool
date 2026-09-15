@@ -32,7 +32,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: light)", color: "#f0fdf4" },
     { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
   ],
   colorScheme: "light",
@@ -41,11 +41,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-white font-sans text-base antialiased">
+      <body className="min-h-screen bg-brand-tint font-sans text-base antialiased">
         <JsonLd data={organizationLd()} />
         <Providers>
           <VisitPing />
-          <header className="sticky top-0 z-20 border-b border-line bg-white/85 backdrop-blur-md">
+          <header className="sticky top-0 z-20 border-b border-brand-line/60 bg-brand-tint/85 backdrop-blur-md">
             <div className="mx-auto flex max-w-page items-center justify-between px-4 py-3 sm:px-6">
               <Link
                 href="/"
@@ -65,7 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </header>
           <main className="mx-auto max-w-page px-4 py-10 sm:px-6">{children}</main>
-          <footer className="mt-24 border-t border-line bg-surface">
+          <footer className="mt-24 border-t border-brand-line/60 bg-brand-soft">
             <div className="mx-auto flex max-w-page flex-col gap-4 px-4 py-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6">
               <span>
                 © {new Date().getFullYear()} {SITE_NAME}. Files never leave your browser.

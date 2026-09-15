@@ -82,8 +82,8 @@ export function CompressTool({ targetBytes, targetLabel }: { targetBytes?: numbe
               <button
                 key={l}
                 onClick={() => setLevel(l)}
-                className={`h-9 flex-1 border text-sm capitalize ${
-                  level === l ? "border-ink bg-ink text-white" : "border-line hover:border-ink"
+                className={`h-9 flex-1 border text-sm capitalize transition-colors ${
+                  level === l ? "border-brand bg-brand text-white" : "border-line hover:border-brand"
                 }`}
               >
                 {l}

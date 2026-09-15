@@ -51,13 +51,13 @@ export function Dropzone({
       onDrop={onDrop}
       className={`group relative flex h-44 w-full cursor-pointer flex-col items-center justify-center gap-2 rounded-card border border-dashed text-sm transition-all duration-150 ease-soft ${
         dragging
-          ? "border-ink bg-surface-2"
-          : "border-line bg-surface hover:border-line-strong hover:bg-surface-2"
+          ? "border-brand bg-brand-soft"
+          : "border-brand-line bg-brand-tint hover:border-brand hover:bg-surface-2"
       }`}
     >
       <div
         className={`rounded-full border p-2 transition-colors ${
-          dragging ? "border-ink bg-white" : "border-line bg-white group-hover:border-ink"
+          dragging ? "border-brand bg-white" : "border-brand-line bg-white group-hover:border-brand"
         }`}
       >
         <Upload className="h-4 w-4" strokeWidth={1.5} />
