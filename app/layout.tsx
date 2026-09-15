@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { HeaderNav } from "@/components/HeaderNav";
@@ -8,6 +9,8 @@ import { Providers } from "@/components/Providers";
 import { VisitPing } from "@/components/VisitPing";
 import { organizationLd } from "@/lib/seo/jsonld";
 import { SITE_NAME, SITE_URL } from "@/lib/seo/meta";
+
+const ADSENSE_CLIENT = "ca-pub-8407822500919737";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -26,6 +29,9 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   twitter: { card: "summary_large_image" },
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT,
+  },
 };
 
 export const viewport: Viewport = {
@@ -82,6 +88,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </footer>
         </Providers>
         <Analytics />
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
