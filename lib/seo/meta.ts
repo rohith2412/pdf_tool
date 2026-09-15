@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://pdfeditorkit.com";
+  process.env.SITE_URL?.replace(/\/$/, "") || "https://pdfeditorkit.com";
 
 export const SITE_NAME = "pdfeditorkit";
 
