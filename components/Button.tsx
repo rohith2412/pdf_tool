@@ -12,9 +12,9 @@ const SIZE = {
 
 const VARIANT = {
   primary:
-    "bg-brand text-white border border-brand hover:bg-brand-hover hover:border-brand-hover active:translate-y-px",
+    "bg-ink text-white border border-ink hover:bg-black hover:border-black active:translate-y-px",
   ghost:
-    "bg-white text-ink border border-line hover:border-brand hover:bg-brand-tint active:translate-y-px",
+    "bg-white text-ink border border-line hover:border-ink hover:bg-surface-2 active:translate-y-px",
   accent:
     "bg-accent text-white border border-accent hover:bg-red-700 hover:border-red-700 active:translate-y-px",
 } as const;
