@@ -10,7 +10,7 @@ import { VisitPing } from "@/components/VisitPing";
 import { organizationLd } from "@/lib/seo/jsonld";
 import { SITE_NAME, SITE_URL } from "@/lib/seo/meta";
 
-const ADSENSE_CLIENT = "ca-pub-8407822500919737";
+const ADSENSE_CLIENT = "ca-pub-7656656037446061";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
