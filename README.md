@@ -1,4 +1,4 @@
-# pdftools
+# pdfeditorkit
 
 A minimal, private PDF utilities site. All PDF processing runs in your browser. MongoDB stores only your Google login profile and a global visitor count.
 

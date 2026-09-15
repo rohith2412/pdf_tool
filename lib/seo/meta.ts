@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://pdfeditorkit.com";
 
-export const SITE_NAME = "pdftools";
+export const SITE_NAME = "pdfeditorkit";
 
 export function buildMetadata(opts: {
   title: string;

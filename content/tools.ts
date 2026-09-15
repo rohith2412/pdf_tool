@@ -23,7 +23,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "merge-pdf",
     name: "Merge PDF",
-    title: "Merge PDF - Combine PDF files in your browser · pdftools",
+    title: "Merge PDF - Combine PDF files in your browser · pdfeditorkit",
     description:
       "Merge PDF files into one document, in your browser. No uploads, no signup, no watermark. Fast, private, free.",
     keywords: [
@@ -85,7 +85,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "split-pdf",
     name: "Split PDF",
-    title: "Split PDF - Extract pages from a PDF · pdftools",
+    title: "Split PDF - Extract pages from a PDF · pdfeditorkit",
     description:
       "Split a PDF by page range or extract single pages, in your browser. No uploads, no signup.",
     keywords: ["split pdf", "extract pdf pages", "split pdf by page", "pdf splitter"],
@@ -113,7 +113,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "rotate-pdf",
     name: "Rotate PDF",
-    title: "Rotate PDF - Rotate pages and save · pdftools",
+    title: "Rotate PDF - Rotate pages and save · pdfeditorkit",
     description:
       "Rotate PDF pages by 90, 180, or 270 degrees and save the result. Runs in your browser.",
     keywords: ["rotate pdf", "rotate pdf pages", "rotate pdf and save"],
@@ -134,7 +134,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "compress-pdf",
     name: "Compress PDF",
-    title: "Compress PDF - Reduce PDF file size in your browser · pdftools",
+    title: "Compress PDF - Reduce PDF file size in your browser · pdfeditorkit",
     description:
       "Compress PDF files in your browser to reduce file size. No uploads, no signup.",
     keywords: ["compress pdf", "reduce pdf size", "shrink pdf"],
@@ -155,7 +155,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "pdf-to-jpg",
     name: "PDF → JPG",
-    title: "PDF to JPG - Convert PDF pages to images · pdftools",
+    title: "PDF to JPG - Convert PDF pages to images · pdfeditorkit",
     description: "Convert PDF pages to JPG or PNG images in your browser. No uploads.",
     keywords: ["pdf to jpg", "pdf to image", "pdf to png"],
     category: "conversion",
@@ -173,7 +173,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "jpg-to-pdf",
     name: "JPG → PDF",
-    title: "JPG to PDF - Combine images into a PDF · pdftools",
+    title: "JPG to PDF - Combine images into a PDF · pdfeditorkit",
     description: "Turn JPG or PNG images into a single PDF in your browser.",
     keywords: ["jpg to pdf", "image to pdf", "combine images into pdf"],
     category: "conversion",
@@ -191,7 +191,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "extract-text",
     name: "Extract text",
-    title: "Extract Text from PDF - In-browser text extraction · pdftools",
+    title: "Extract Text from PDF - In-browser text extraction · pdfeditorkit",
     description: "Pull all text out of a PDF file in your browser. No uploads.",
     keywords: ["extract text from pdf", "pdf to text", "pdf text extractor"],
     category: "conversion",
@@ -214,7 +214,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "add-page-numbers",
     name: "Add page numbers",
-    title: "Add Page Numbers to PDF - In your browser · pdftools",
+    title: "Add Page Numbers to PDF - In your browser · pdfeditorkit",
     description: "Insert page numbers on each page of a PDF. Runs in your browser.",
     keywords: ["add page numbers to pdf", "pdf page numbers", "number pdf pages"],
     category: "other",
@@ -232,7 +232,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "delete-pages",
     name: "Delete pages",
-    title: "Delete Pages from PDF · pdftools",
+    title: "Delete Pages from PDF · pdfeditorkit",
     description: "Remove specific pages from a PDF in your browser.",
     keywords: ["delete pdf pages", "remove pdf pages", "delete pages from pdf"],
     category: "operations",
@@ -250,7 +250,7 @@ export const TOOLS: Tool[] = [
   {
     slug: "reorder-pages",
     name: "Reorder pages",
-    title: "Reorder PDF Pages · pdftools",
+    title: "Reorder PDF Pages · pdfeditorkit",
     description: "Rearrange the pages of a PDF file, in your browser.",
     keywords: ["reorder pdf pages", "rearrange pdf pages", "pdf page order"],
     category: "operations",
@@ -282,7 +282,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-merge-pdf",
     toolSlug: "merge-pdf",
-    title: "How to merge PDF files (free, in your browser) · pdftools",
+    title: "How to merge PDF files (free, in your browser) · pdfeditorkit",
     description:
       "Step-by-step guide to merging PDF files without uploading them. Free, in-browser, no signup, no watermark.",
     h1: "How to merge PDF files",
@@ -317,7 +317,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-split-pdf",
     toolSlug: "split-pdf",
-    title: "How to split a PDF (extract pages by range) · pdftools",
+    title: "How to split a PDF (extract pages by range) · pdfeditorkit",
     description:
       "Split a PDF into separate files by page number or range. Free, in-browser, no upload.",
     h1: "How to split a PDF",
@@ -346,7 +346,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-compress-pdf",
     toolSlug: "compress-pdf",
-    title: "How to compress a PDF (reduce file size in-browser) · pdftools",
+    title: "How to compress a PDF (reduce file size in-browser) · pdfeditorkit",
     description:
       "Compress large PDFs so they're easier to email or upload. Runs in your browser - no upload.",
     h1: "How to compress a PDF",
@@ -380,7 +380,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-rotate-pdf",
     toolSlug: "rotate-pdf",
-    title: "How to rotate a PDF (and save the rotation) · pdftools",
+    title: "How to rotate a PDF (and save the rotation) · pdfeditorkit",
     description:
       "Rotate PDF pages by 90, 180, or 270 degrees. The rotation is saved into the file. In-browser, no upload.",
     h1: "How to rotate a PDF and save it",
@@ -408,7 +408,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-convert-pdf-to-jpg",
     toolSlug: "pdf-to-jpg",
-    title: "How to convert a PDF to JPG images · pdftools",
+    title: "How to convert a PDF to JPG images · pdfeditorkit",
     description:
       "Export every page of a PDF as a JPG image. High-quality, in your browser.",
     h1: "How to convert PDF pages to JPG",
@@ -437,7 +437,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-convert-jpg-to-pdf",
     toolSlug: "jpg-to-pdf",
-    title: "How to combine images into a PDF (JPG or PNG) · pdftools",
+    title: "How to combine images into a PDF (JPG or PNG) · pdfeditorkit",
     description:
       "Combine multiple JPG or PNG images into a single PDF file. In your browser - no upload.",
     h1: "How to combine images into a PDF",
@@ -466,7 +466,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-extract-text-from-pdf",
     toolSlug: "extract-text",
-    title: "How to extract text from a PDF (in your browser) · pdftools",
+    title: "How to extract text from a PDF (in your browser) · pdfeditorkit",
     description:
       "Pull all the plain text out of a PDF and copy or download it. Runs in-browser.",
     h1: "How to extract text from a PDF",
@@ -494,7 +494,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-add-page-numbers-to-pdf",
     toolSlug: "add-page-numbers",
-    title: "How to add page numbers to a PDF · pdftools",
+    title: "How to add page numbers to a PDF · pdfeditorkit",
     description:
       "Add page numbers to any PDF, in any position. In your browser, free.",
     h1: "How to add page numbers to a PDF",
@@ -522,7 +522,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-delete-pages-from-pdf",
     toolSlug: "delete-pages",
-    title: "How to delete pages from a PDF · pdftools",
+    title: "How to delete pages from a PDF · pdfeditorkit",
     description:
       "Remove specific pages from a PDF file and keep the rest. In-browser, no upload.",
     h1: "How to delete pages from a PDF",
@@ -545,7 +545,7 @@ export const HOW_TO_PAGES: HowToPageMeta[] = [
   {
     slug: "how-to-reorder-pdf-pages",
     toolSlug: "reorder-pages",
-    title: "How to reorder pages in a PDF · pdftools",
+    title: "How to reorder pages in a PDF · pdfeditorkit",
     description:
       "Rearrange PDF pages visually with thumbnails. In-browser, no upload.",
     h1: "How to reorder PDF pages",

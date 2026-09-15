@@ -37,7 +37,7 @@ export function toolOgImage(name: string, tagline: string) {
           >
             pd
           </div>
-          <div style={{ fontSize: 24, color: "#3f3f46" }}>pdftools</div>
+          <div style={{ fontSize: 24, color: "#3f3f46" }}>pdfeditorkit</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div

@@ -78,7 +78,7 @@ export const COMPRESS_VARIANTS: CompressVariant[] = [
     targetLabel: "1 MB",
     name: "Compress PDF to 1 MB",
     h1: "Compress PDF to 1 MB",
-    title: "Compress PDF to 1 MB - Online, in your browser · pdftools",
+    title: "Compress PDF to 1 MB - Online, in your browser · pdfeditorkit",
     description:
       "Reduce a PDF to under 1 MB for uploads and applications. Runs in your browser, no signup, no watermark.",
     intro:
@@ -97,7 +97,7 @@ export const COMPRESS_VARIANTS: CompressVariant[] = [
     targetLabel: "2 MB",
     name: "Compress PDF to 2 MB",
     h1: "Compress PDF to 2 MB",
-    title: "Compress PDF to 2 MB - Online, in your browser · pdftools",
+    title: "Compress PDF to 2 MB - Online, in your browser · pdfeditorkit",
     description:
       "Get your PDF under 2 MB for online applications and portals. Client-side, private, free.",
     intro:
@@ -116,7 +116,7 @@ export const COMPRESS_VARIANTS: CompressVariant[] = [
     targetLabel: "5 MB",
     name: "Compress PDF to 5 MB",
     h1: "Compress PDF to 5 MB",
-    title: "Compress PDF to 5 MB - Online, in your browser · pdftools",
+    title: "Compress PDF to 5 MB - Online, in your browser · pdfeditorkit",
     description:
       "Reduce PDF size to under 5 MB for portals with a 5 MB upload limit. In-browser, no uploads.",
     intro:
@@ -135,7 +135,7 @@ export const COMPRESS_VARIANTS: CompressVariant[] = [
     targetLabel: "10 MB",
     name: "Compress PDF to 10 MB",
     h1: "Compress PDF to 10 MB",
-    title: "Compress PDF to 10 MB - Online, in your browser · pdftools",
+    title: "Compress PDF to 10 MB - Online, in your browser · pdfeditorkit",
     description:
       "Get a PDF under 10 MB while keeping quality. Runs entirely in your browser.",
     intro:
@@ -153,7 +153,7 @@ export const COMPRESS_VARIANTS: CompressVariant[] = [
     targetLabel: "20 MB",
     name: "Compress PDF for email",
     h1: "Compress PDF for email",
-    title: "Compress PDF for Email - Fit under attachment limits · pdftools",
+    title: "Compress PDF for Email - Fit under attachment limits · pdfeditorkit",
     description:
       "Shrink a PDF so it fits inside common email attachment limits (Gmail 25 MB, Outlook 20 MB). Runs in your browser.",
     intro:

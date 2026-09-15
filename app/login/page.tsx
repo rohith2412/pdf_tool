@@ -5,9 +5,9 @@ import { buildMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: "Sign in - pdftools",
+    title: "Sign in - pdfeditorkit",
     description:
-      "Sign in to pdftools with your Google account. Optional - every tool works without an account.",
+      "Sign in to pdfeditorkit with your Google account. Optional - every tool works without an account.",
     path: "/login",
   }),
   robots: { index: false, follow: true },

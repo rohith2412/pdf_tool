@@ -1,7 +1,7 @@
 import { OG_SIZE, OG_TYPE, toolOgImage } from "@/lib/seo/og";
 
 export const runtime = "edge";
-export const alt = "Reorder pages - pdftools";
+export const alt = "Reorder pages - pdfeditorkit";
 export const size = OG_SIZE;
 export const contentType = OG_TYPE;
 

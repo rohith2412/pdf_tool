@@ -23,7 +23,7 @@ export function HowToPage({ page }: { page: HowToPageMeta }) {
   const Tool = TOOL_COMPONENTS[tool.slug];
 
   const crumbs = [
-    { name: "pdftools", path: "/" },
+    { name: "pdfeditorkit", path: "/" },
     { name: tool.name, path: `/${tool.slug}` },
     { name: page.h1, path: `/${page.slug}` },
   ];

@@ -27,7 +27,7 @@ export function ToolLayout({
   const crumbs = breadcrumb.length
     ? breadcrumb
     : [
-        { name: "pdftools", path: "/" },
+        { name: "pdfeditorkit", path: "/" },
         { name: tool.name, path: `/${tool.slug}` },
       ];
   const related = tool.related

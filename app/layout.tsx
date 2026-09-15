@@ -12,17 +12,17 @@ import { SITE_NAME, SITE_URL } from "@/lib/seo/meta";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "pdftools - private, in-browser PDF utilities",
-    template: "%s · pdftools",
+    default: "pdfeditorkit - private, in-browser PDF utilities",
+    template: "%s · pdfeditorkit",
   },
   description:
     "A small collection of PDF utilities that run entirely in your browser. No uploads, no signup, no watermark.",
-  applicationName: "pdftools",
+  applicationName: "pdfeditorkit",
   robots: { index: true, follow: true },
   formatDetection: { telephone: false, email: false, address: false },
   openGraph: {
     type: "website",
-    siteName: "pdftools",
+    siteName: "pdfeditorkit",
     locale: "en_US",
   },
   twitter: { card: "summary_large_image" },

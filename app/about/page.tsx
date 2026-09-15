@@ -7,9 +7,9 @@ export const dynamic = "force-static";
 export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
-  title: "About - pdftools",
+  title: "About - pdfeditorkit",
   description:
-    "About pdftools: a minimal set of PDF utilities that run entirely in your browser.",
+    "About pdfeditorkit: a minimal set of PDF utilities that run entirely in your browser.",
   path: "/about",
 });
 
@@ -18,13 +18,13 @@ export default function AboutPage() {
     <article className="max-w-prose">
       <JsonLd
         data={breadcrumbLd([
-          { name: "pdftools", path: "/" },
+          { name: "pdfeditorkit", path: "/" },
           { name: "About", path: "/about" },
         ])}
       />
       <h1 className="text-2xl font-semibold tracking-tighter2 text-ink">About</h1>
       <p className="mt-6 text-base text-subink">
-        pdftools is a minimal set of PDF utilities that run entirely in your
+        pdfeditorkit is a minimal set of PDF utilities that run entirely in your
         browser. There are no ads, no upsells, and nothing is uploaded.
       </p>
       <p className="mt-4 text-base text-subink">

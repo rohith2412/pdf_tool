@@ -1,7 +1,7 @@
 import { OG_SIZE, OG_TYPE, toolOgImage } from "@/lib/seo/og";
 
 export const runtime = "edge";
-export const alt = "Delete pages - pdftools";
+export const alt = "Delete pages - pdfeditorkit";
 export const size = OG_SIZE;
 export const contentType = OG_TYPE;
 

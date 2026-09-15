@@ -8,9 +8,9 @@ export const dynamic = "force-static";
 export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Privacy - pdftools",
+  title: "Privacy - pdfeditorkit",
   description:
-    "How pdftools handles your data: PDFs stay in your browser. MongoDB stores only your Google login profile and a global visitor count.",
+    "How pdfeditorkit handles your data: PDFs stay in your browser. MongoDB stores only your Google login profile and a global visitor count.",
   path: "/privacy",
 });
 
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
     <article className="max-w-prose">
       <JsonLd
         data={breadcrumbLd([
-          { name: "pdftools", path: "/" },
+          { name: "pdfeditorkit", path: "/" },
           { name: "Privacy", path: "/privacy" },
         ])}
       />

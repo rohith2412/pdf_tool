@@ -6,8 +6,8 @@ import { buildMetadata } from "@/lib/seo/meta";
 
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: "Account - pdftools",
-    description: "Your pdftools account.",
+    title: "Account - pdfeditorkit",
+    description: "Your pdfeditorkit account.",
     path: "/account",
   }),
   robots: { index: false, follow: false },

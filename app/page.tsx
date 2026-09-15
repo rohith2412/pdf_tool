@@ -13,7 +13,7 @@ export const dynamic = "force-static";
 export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
-  title: "pdftools - private, in-browser PDF utilities",
+  title: "pdfeditorkit - private, in-browser PDF utilities",
   description:
     "Merge, split, compress, rotate, and convert PDFs - all in your browser. No uploads. No signup. No watermark.",
   path: "/",
