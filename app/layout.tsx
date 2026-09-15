@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   other: {
     "google-adsense-account": ADSENSE_CLIENT,
   },
+  verification: {
+    google: "qJCHavOIA19DHh2iNnbj9JuYD1Fg1q_Ev64mytsRVd4",
+  },
 };
 
 export const viewport: Viewport = {
