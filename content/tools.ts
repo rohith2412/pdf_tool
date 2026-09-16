@@ -265,6 +265,59 @@ export const TOOLS: Tool[] = [
     faq: [{ q: "Is the original PDF changed?", a: "No - a new file is generated." }],
     related: ["merge-pdf", "split-pdf", "delete-pages"],
   },
+  {
+    slug: "sign-pdf",
+    name: "Sign & Fill",
+    title: "Sign PDF - Draw signatures and fill text in your browser · pdfeditorkit",
+    description:
+      "Sign a PDF and fill in text anywhere on the page. Draw your signature, type text, place it where you need. Runs entirely in your browser.",
+    keywords: [
+      "sign pdf",
+      "fill pdf",
+      "sign pdf online",
+      "electronic signature pdf",
+      "add signature to pdf",
+      "fill pdf form",
+      "type on pdf",
+      "add text to pdf",
+    ],
+    category: "operations",
+    shortDescription: "Draw a signature or type text on a PDF",
+    h1: "Sign & fill PDF",
+    intro:
+      "Draw your signature, type text, and place them anywhere on any page. Nothing uploads - the PDF is edited in your browser.",
+    steps: [
+      { name: "Drop your PDF", text: "Add the PDF you want to sign or fill." },
+      {
+        name: "Draw or type",
+        text: "Switch to Signature to draw your signature, or Text to type any content.",
+      },
+      {
+        name: "Click to place",
+        text: "Click on the page where you want the signature or text to appear. Add as many as you need across any pages.",
+      },
+      { name: "Download", text: "Click Save PDF to download the signed file." },
+    ],
+    faq: [
+      {
+        q: "Is my signature uploaded anywhere?",
+        a: "No. The signature is drawn on a canvas in your browser and burned into the PDF locally. Nothing is uploaded.",
+      },
+      {
+        q: "Can I sign more than one page?",
+        a: "Yes. Use the page arrows to navigate, and place signatures or text on any page.",
+      },
+      {
+        q: "Can I fill existing form fields?",
+        a: "This tool lets you place text or signatures anywhere on the page - useful for PDFs without interactive form fields, or when you want to sign on a specific spot.",
+      },
+      {
+        q: "Is the signed PDF legally binding?",
+        a: "An image of your handwritten signature is legally recognized for most everyday documents. For contracts requiring a certified digital signature, use a service that supports PKI-based signing.",
+      },
+    ],
+    related: ["merge-pdf", "add-page-numbers", "compress-pdf"],
+  },
 ];
 
 export type HowToPageMeta = {

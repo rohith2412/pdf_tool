@@ -2,6 +2,7 @@ import {
   ArrowDownWideNarrow,
   FileImage,
   FilePlus2,
+  FileSignature,
   FileText,
   FileType,
   Hash,
@@ -24,6 +25,7 @@ const MAP: Record<string, LucideIcon> = {
   "add-page-numbers": Hash,
   "delete-pages": Trash2,
   "reorder-pages": ListOrdered,
+  "sign-pdf": FileSignature,
 };
 
 export function ToolIcon({ slug, className = "h-4 w-4" }: { slug: string; className?: string }) {
